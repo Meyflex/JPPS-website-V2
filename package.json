@@ -1,18 +1,19 @@
 {
-  "name": "backend",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example Node.js project for Platform.sh",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/platformsh-templates/nodejs.git"
+  },
+  "author": "Platform.sh",
+  "license": "MIT",
   "dependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20",
-    "path": "^0.12.7"
+    "mysql2": "^1.6.5",
+    "platformsh-config": "^2.0.0"
   }
 }
